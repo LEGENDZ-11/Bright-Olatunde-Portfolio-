@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #0f0f0f;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  font-size: 19px;
+  list-style: none;
+  gap: 5px;
+  padding-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding-left: 2px;
+  padding-right: 1px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+  background-color: #111;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-right: 8px;
+  margin-left: -4px
+}
+
+.hero-text span {
+  color: #888;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.hero-img img {
+  border-radius: 25%;
+  width: 150px;
+  height: 150px;
+  object-fit: fill;
+}
+
+.about {
+  display: flex;
+  padding: 80px 40px;
+  background-color: #151515;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-img img {
+  border-radius: 20px;
+  width: 75px;
+  height: auto;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  width: 250px;
+  height: 150px;
+  overflow: scroll;
+  margin-bottom: 30px;
+  color: #aaa;
+}
+
+.skills {
+  width: 100%;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  height: 8px;
+  background: #333;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar::after {
+  content: '';
+  display: block;
+  height: 100%;
+  background: #00ff99;
+  border-radius: 4px;
+}
+
+.bar.html::after { width: 90%; }
+.bar.css::after { width: 85%; }
+.bar.sass::after { width: 75%; }
+.bar.php::after { width: 65%; }
+.bar.js::after { width: 80%; }
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #0f0f0f;
+  font-size: 0.9rem;
+  color: #666;
+}
+/* style.css */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  padding: 80px 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.button {
+  background: white;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+.bg-blacktext-whitepy-20px-8{
+  background-color: black;
+}
+.bg-blue-400py-12rounded-lgfont-semibold{
+  background-color: blue;
+  justify-items: center;
+  padding-left: 70px;
+  height: 60px;
+  padding-top: 20px;
+  border-radius: 10px;
+  position: relative;
+  font-weight: 500;
+}
+.bg-green-700py-12rounded-lgfont-semibold{
+  background-color: green;
+  padding-left: 90px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: 500
+}
+.bg-pink-600py-12rounded-lgfont-semibold{
+  background-color: pink;
+  padding-left: 70px;
+  height: 60px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: 500
+}
+.bg-orange-400py-12rounded-lgfont-semibold{
+  background-color: orange;
+  padding-left: 70px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: 500
+}
+.bg-green-400py-12rounded-lgfont-semibold{
+  background-color: greenyellow;
+  padding-left: 75px;
+  height: 60px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: 500
+}
+.bg-purple-400py-12rounded-lgfont-semibold{
+  background-color: purple;
+  padding-left: 70px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-weight: 500
+}
+.bg-black2text-whitepy-20px-8{
+  align-items: center;
+  align-content: center;
+  position: absolute;
+}
+}
+.mymail{
+  padding-top: 10px;
+  text-decoration: none
+}
+.down a{
+  justify-content: center;
+}
+
+form div{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+span input{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  background-color: #eee;
+  border: none;
+  outline: none;
+}
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #eee;
+  border: none;
+  outline: none;
+}
+button{
+  background-color: #e53653;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: #00ff99;
+  cursor: pointer;
+}
+<section id="contact" class="bg-black text-white py-20 px-8">
+  <div class="max-w-6xl mx-auto">
+   
+    <div class="grid md:grid-cols-2 gap-12">
+   
+      <div class="space-y-4">
+        <div class="con">
+          <h3 class="text-2xlfont-semibold">CONTACT WITH ME</h3>
+        <p class="mymail"><strong>Email:</strong><a href="mailto: brightology15@gmail.com">brightologo15@gmail.com</a></p>
+        <p class="myphone"><strong>Phone:</strong> +234 911 412 9287</p>
+        <p class="myloc"><strong>Location:</strong> Lagos, Nigeria</p>
+        </div>
+      </div>
+  <br>
+
+.res{
+  width: 100px;
+  height: 100px;
+}
+.res p{
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  justify-content: center;
+}
+.res h2{
+  justify-self: center;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+.max-w-6xlmx-autotext-center h2{
+  justify-self: center;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+.down{
+  align-self:  center;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.download{
+  justify-self: center;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+.contacts h2{
+  justify-self: center;
+  
+}
+.contacts p{
+  justify-self: center;
+  line-height: 30px;
+  font-size: 20px;
+}
+.mail a{
+  text-decoration: none;
+  padding-left: 2px;
+  color: greenyellow;
+  font-weight: 500;
+}
+.glasscard h2{
+  justify-self: center;
+  margin-top: 10px;
+}
+.about{
+  display: flex;
+  justify-content: center;
+}
